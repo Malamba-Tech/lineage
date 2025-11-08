@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    /*
+    box-sizing: border-box;
+    border: 1px solid blue;     
+    */
+    font-weight: normal;
+    display: block;
+    text-decoration: none;
+}
+
+.center-1{
+    width: 83%;
+    margin: auto;
+    display: flex
+}
+
+.top{
+    margin: 0;
+}

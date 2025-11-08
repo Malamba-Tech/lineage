@@ -1,0 +1,46 @@
+
+.center-1 img{
+    width: 450px;
+    height: 450px;
+    transform-origin: center;
+    transition: 0.1s;
+    display: block;
+}
+
+.gir{
+    padding: 16px;
+}
+
+.gir picture{
+    overflow: hidden;
+    padding: 10px;
+}
+
+.gir .rotulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.gir .p1{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+}
+
+.gir .p2{
+    margin-top: 40px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gir h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gir span{
+    color: rgb(31, 154, 154);
+}
