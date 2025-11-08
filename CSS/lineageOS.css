@@ -1,0 +1,263 @@
+/*
+ *   Copyright (c) 2025 
+ *   All rights reserved.
+ */
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+sup {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul a {
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* SESSÃO TOPO */
+.container .cabecalho {
+    display: flex;
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.cabecalho .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho .logo img {
+    width: 200px;
+}
+
+.container .itens-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .itens-links a {
+    margin-left: 30px;
+    font-size: 12px;
+    color: #3C4858;
+    text-transform: uppercase;
+}
+
+.container .itens-links .itens-open a {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: #3e4958d7;
+}
+
+
+/* SESSÃO CONTEÚDO */
+.sessao-lineage {
+    display: flex;
+    justify-content: space-between;
+    background-color: #167c80;
+    padding: 0 10%;
+}
+
+.itens-lineage {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding-top: 80px;
+}
+
+.itens-lineage h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.itens-lineage p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.itens-btn {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itens-btn button {
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 50px;
+    color: #167c80;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    transition: all .4s ease;
+    background-color: #fff;
+}
+
+.itens-btn button:hover {
+    box-shadow: 0 5px 10px 1px #23232399;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.itens-btn a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.sessao-lineage .imagem-peek {
+    width: 420px;
+}
+
+.sessao-lineage .imagem-peek img {
+    width: 100%;
+    height: 100%;
+}
+
+/* SESSÃOO LATEST*/
+.sessao-latest .itens-news {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #E0F6F7;
+    padding: 35px 10%;
+    font-size: 20px;
+}
+
+.itens-news h1 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.itens-news h1+p {
+    color: #135957;
+}
+
+.itens-news span {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.itens-news span+p {
+    font-size: 16px;
+}
+
+.itens-individual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+
+.itens-individual .imagem {
+    width: 300px;
+}
+
+.itens-individual .itens-custom {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.itens-individual h1 {
+    font-size: 40px;
+}
+
+.itens-individual p {
+    font-size: 20px;
+}
+
+/* SESSÃO SECURITY */
+.sessao-security {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-top: 40px;
+    color: #fff;
+    background-color: #202626;
+}
+
+.sessao-security .itens-dados {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.sessao-security .itens-dados p+p {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.sessao-security .imagem {
+    width: 550px;
+}
+
+.sessao-longevity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.sessao-longevity #imagem {
+    width: 500px;
+}
+
+/* .sessao-longevity img {
+    width: 200px;
+    transition: transform 0.05s linear;
+    suaviza a rotação
+    transform: translateY(10%) rotate(0deg);
+} */
+
+.sessao-longevity .itens-longevity {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+}
+
+.sessao-longevity .itens-longevity p {
+    font-size: 20px;
+}
+
+.sessao-longevity .itens-longevity h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.sessao-longevity .itens-longevity a {
+    color: #167c80;
+    text-decoration: none;
+}
